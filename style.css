@@ -51,6 +51,7 @@
 
 .contato p{
     text-align: center;
+    margin: 20px;
 }
 
 .inicio h1 {
@@ -58,10 +59,15 @@
     text-align: center;
 }
 .inicio p{
-    text-align: justify;
+    text-align: center;
+    margin: 20px;
 }
 .mim{
     text-align: center;
+}
+
+.mim p{
+    margin: 20px;
 }
 
 .mim img{
