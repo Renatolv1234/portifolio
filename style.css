@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo{
+    
+    width: 100vw;
+    height: 100px;
+    border: 1px solid slategrey;
+}
+
+.titulo p{
+    margin-top: 40px;
+    font-family: var(--fonte-padrao);
+    font-size: 1.7em;
+    font-style: italic;
+}
+.titulo nav{
+    text-align: right;
+}
+.titulo nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.titulo nav a:hover{
+    background-color: rgba(128, 128, 128, 0.486);
+    border-radius: 20px;
+    transition-duration: .5s;
+}
+
+.conteudo{
+    min-width: 300px;
+    max-width: 800px;
+    height: 100vh;
+    margin: auto;
+    text-align: justify;
+}
+
+
+.contato h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.contato p{
+    text-align: center;
+}
+
+.inicio h1 {
+    font-size: 3em;
+    text-align: center;
+}
+.inicio p{
+    text-align: justify;
+}
+.mim{
+    text-align: center;
+}
+
+.mim img{
+    border-radius: 60%;
+}
+
+.projetos{
+    text-align: center;
+    
+
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: rgba(199, 199, 199, 0.719);
+}
+
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;  
+
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:   
+ 4px;
+    cursor: pointer;
+}
