@@ -83,6 +83,10 @@
 
 
 footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /*Solução para o footer*/
     text-align: center;
     background-color: black;
     color: white;
