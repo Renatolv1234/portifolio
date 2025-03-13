@@ -36,14 +36,20 @@
 }
 
 .conteudo{
-    position: relative;
+    border-top: 1px solid black;
     min-width: 300px;
     max-width: 800px;
     height: 100vh;
     margin: auto;
     text-align: justify;
 }
-
+.conteudo-i{
+    min-width: 300px;
+    max-width: 800px;
+    height: 100vh;
+    margin: auto;
+    text-align: justify;
+}
 
 .contato h1{
     font-size: 3.5em;
@@ -81,29 +87,6 @@
 
 }
 
-
-
-footer{
-    position: absolute;
-    max-width: 100%;
-    min-width: 200px;
-    width: 100%;
-    /*Solução para o footer*/
-    text-align: center;
-    background-color: black;
-    color: white;
-}
-footer a{
-    text-decoration: none;
-    color: white;
-}
-footer a:hover{
-    text-decoration: underline;
-    color: rgba(199, 199, 199, 0.719);
-}
-
-
-
 form {
     width: 300px;
     margin: 0 auto;
@@ -119,16 +102,22 @@ input, textarea {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;  
-
     border-radius: 4px;
 }
 
-button {
+.botao{
+    padding: 10px;
+}
+
+.botoes { 
+    width: 50px;
+    height: 30px;
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius:   
- 4px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 4px ;
     cursor: pointer;
+}
+.botoes:hover{
+    background-color: #17cf1d;
 }
