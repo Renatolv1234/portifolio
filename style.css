@@ -122,6 +122,7 @@ input, textarea {
     background-color: #17cf1d;
 }
 footer{
+    width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     color: white;
