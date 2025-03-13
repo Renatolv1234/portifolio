@@ -82,8 +82,9 @@
 
 
 
-footer{  
-    bottom: 0;
+footer{
+    max-width: 100%;
+    min-width: 200px;
     width: 100%;
     /*Solução para o footer*/
     text-align: center;
